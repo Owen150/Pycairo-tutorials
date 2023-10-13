@@ -10,3 +10,13 @@ ctx.paint()
 ctx.rectangle(150, 100, 100, 240)
 ctx.set_source_rgb(1, 0, 0)
 ctx.fill()
+
+# Green Rectangle
+ctx.rectangle(300, 100, 100, 240)
+ctx.set_source_rgb(0, 1, 0)
+ctx.fill()
+
+# Blue Square
+ctx.rectangle(350, 170, 200, 200)
+ctx.set_source_rgb(0, 0, 1)
+ctx.fill()

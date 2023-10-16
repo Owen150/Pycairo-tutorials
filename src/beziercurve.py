@@ -8,7 +8,7 @@ ctx.paint()
 
 # Bezier Curve
 ctx.move_to(100, 200)
-ctx.curve_to(200, 100, 400, 300, 500, 200)
+ctx.curve_to(200, 100, 400, 310, 500, 200)
 ctx.set_source_rgb(1, 0, 0)
 ctx.set_line_width(10)
 ctx.stroke()

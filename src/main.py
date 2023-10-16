@@ -26,7 +26,7 @@ ctx.set_line_width(10)
 ctx.stroke()
 
 # Save the result as a PNG image
-surface.write_to_png("output_image.png")
+surface.write_to_png("fill_stroke.png")
 
 # Clean up
 ctx.show_page()

@@ -34,9 +34,11 @@ ctx.line_to(400, 300)
 
 ctx.move_to(200, 300)
 ctx.line_to(300, 300)
+ctx.set_line_cap(cairo.LINE_CAP_SQUARE)
 
 ctx.move_to(300, 200)
 ctx.line_to(300, 300)
+ctx.set_line_cap(cairo.LINE_CAP_SQUARE)
 
 ctx.set_source_rgb(0, 1, 0)
 ctx.stroke()

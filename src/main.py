@@ -7,18 +7,18 @@ ctx.set_source_rgb(0.8, 0.8, 0.8)
 ctx.paint()
 
 # Red Rectangle - fill
-ctx.rectangle(150, 100, 100, 240)
+ctx.rectangle(100, 50, 100, 240)
 ctx.set_source_rgb(1, 0, 0)
 ctx.fill()
 
 # Green Rectangle - stroke
-ctx.rectangle(300, 100, 100, 240)
+ctx.rectangle(250, 50, 100, 240)
 ctx.set_source_rgb(0, 1, 0)
 ctx.set_line_width(5)
 ctx.stroke()
 
 # Blue Square - fill & stroke
-ctx.rectangle(350, 170, 200, 200)
+ctx.rectangle(400, 50, 100, 100)
 ctx.set_source_rgb(0, 0, 1)
 ctx.fill_preserve()
 ctx.set_source_rgb(0, 0, 0)

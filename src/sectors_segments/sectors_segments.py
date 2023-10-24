@@ -29,5 +29,5 @@ ctx.stroke()
 # Save the result as a PNG image
 surface.write_to_png("sectors_segments.png")
 
-# Clean up code
+# Clean up codee
 ctx.show_page()

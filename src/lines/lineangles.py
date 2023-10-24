@@ -20,5 +20,5 @@ ctx.stroke()
 # Save the result as a PNG image
 surface.write_to_png("lineangles.png")
 
-# Clean up
+# Emits and clears the current page for backend that support multiple pages
 ctx.show_page()

@@ -17,7 +17,7 @@ ctx.set_line_width(10)
 ctx.stroke()
 
 # Save the result as a PNG image
-surface.write_to_png("bezier_two.png")
+surface.write_to_png("polycurve.png")
 
 # Clean up
 ctx.show_page()

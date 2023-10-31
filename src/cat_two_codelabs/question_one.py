@@ -15,5 +15,4 @@ def read_jsonline(filepath: str) -> List[Dict[str, Any]]:
 # Test the function
 test_file_path = "test.json"
 coordinates = read_jsonline(test_file_path)
-print(coordinates)
-
+print(coordinates[0])

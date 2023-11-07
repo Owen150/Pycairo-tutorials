@@ -27,5 +27,5 @@ def draw(n: int):
     ctx.stroke()
 
 
-draw(2)
+draw(4)
 surface.write_to_png("recursive_shapes.png")
